@@ -1,0 +1,15 @@
+//core
+@import 'bootstrap/bootstrap'; 
+//core end
+
+@import "variables"; //пишем переменные
+
+@import "reset"; //сборс стилей
+@import "mixins";
+// @import "fonts"; //подключаем шрифты (локально)
+
+//подключаем БЭМ блоки
+@import "blocks/header.scss";
+@import "blocks/menu.scss";
+@import "blocks/login.scss";
+@import "blocks/button.scss";

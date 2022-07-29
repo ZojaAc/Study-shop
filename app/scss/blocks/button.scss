@@ -1,0 +1,15 @@
+.button {
+  text-align: center;
+  color: #ffffff;
+  @include font(16px, 24px, 400);
+  font-family: $font-text;
+  display: block;  
+  cursor: pointer;  
+  padding: 10px 30px;
+  border-radius: 50px;
+  white-space: nowrap;
+  
+  // &:hover {
+  //   background-color: $col-accent;
+  // }
+}

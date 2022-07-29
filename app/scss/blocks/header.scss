@@ -1,0 +1,14 @@
+.header {
+  font-family: $font-text;
+  color: #ffffff;
+
+  &__nav {
+    background-color: $col-block;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
